@@ -1,0 +1,17 @@
+
+
+The difference is  pass by reference, we are handing in our only copy of the variable, and the function directly modifies that variable. In case of pass by value we have different variable that points at the other variable, so basically two copies of the same variable, and only the copy is modified leaving our original unchanged.
+
+
+Hash table are key value pair objects. Based on keys we can retrieve data from lists. We write a hash function which determines how to store the data in the lists. Some of the hash function methods are Remainder method, folding method. In case of a collision we search for next empty list in the hash table and store it there. If not we can create a linked list for a particular key and store the value added at the end. This is called as Chaining. Non integer values can be stored through ordinal value conversion in python.
+
+We use hash table to retrieve data in O(1). Python has inbuilt hashtables as dictionary which enables this property.
+
+
+Garbage collection is a way to auto recover unused memory and pointers. In C programming language we have to manually free up the memory, but in Java it is done automatically and no special code is needed.
+In python every object has a reference count. Once the ref count falls to 0, the memory is deallocated and consumed back into main memory pool.
+
+
+
+
+In operating system a deadlock is when  processes are in waiting state due lack of resources held up another process which in turn is waiting for another process in turn forming a loop. It occurs due to corrupt signals or limited resource availability. If the resource needed by another process is not released after certain amount of time and this continues with all processes, it forms a deadlock. 
